@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: #081b29;
+    color: #ededed;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.portfolio-card {
+    width: 100%;
+    max-width: 1100px;
+    background: rgba(17, 34, 51, 0.8);
+    border: 2px solid #0ef;
+    border-radius: 25px;
+    padding: 40px;
+    box-shadow: 0 0 20px rgba(0, 238, 255, 0.2);
+}
+
+.nav-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.logo { font-size: 1.6rem; font-weight: 700; }
+.logo span { color: #0ef; }
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.nav-links a:hover { color: #0ef; }
+
+/* Photo Styling */
+.profile-section {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.profile-img-box {
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 20px;
+    border-radius: 50%;
+    border: 3px solid #0ef;
+    box-shadow: 0 0 15px #0ef, 0 0 30px rgba(0, 238, 255, 0.4);
+    overflow: hidden;
+}
+
+.profile-img-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.bio-text {
+    max-width: 600px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+/* Table Styling */
+.section-title {
+    color: #0ef;
+    margin: 20px 0;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    text-align: left;
+    color: #0ef;
+    padding: 12px;
+    border-bottom: 2px solid #0ef;
+}
+
+td {
+    padding: 12px;
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+}
+
+.sub-link {
+    color: #0ef;
+    text-decoration: none;
+}
+
+.sub-link:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    color: #888;
+    font-size: 0.9rem;
+}
